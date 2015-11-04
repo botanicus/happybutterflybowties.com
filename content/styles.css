@@ -1,0 +1,9 @@
+body > footer {
+  background-color: #f5f5f5;
+}
+
+body > footer .footer {
+  padding-top: 50px;
+  text-align: center;
+  background-size: 50px auto;
+}

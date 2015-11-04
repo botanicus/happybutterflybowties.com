@@ -1,42 +1,53 @@
 <!DOCTYPE html>
 <!--
-Nginx rewrite .html
 Bootstrap
 -->
 <html>
   <head>
     <title>Happy Butterfly Bow Ties</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/styles.css" />
   </head>
 
   <body>
-    <h1>Happy Butterfly Bow Ties</h1>
-    <p>
-      Hi! My name is James and I'm making handcrafted bow ties.
-      At the moment this site is very basic. There's more going on on the <a href="https://facebook.com/happybutterflybowties">Happy Butterfly Bow Ties Facebook page</a>.
-    </p>
+    <div class="container">
+      <h1>Happy Butterfly Bow Ties</h1>
+      <p>
+        Hi! My name is James and I'm making handcrafted bow ties.
+        At the moment this site is very basic. There's more going on on the <a href="https://facebook.com/happybutterflybowties">Happy Butterfly Bow Ties Facebook page</a>.
+      </p>
 
-    <!-- Ecwid store -->
-    <div id="my-store-7590305"></div>
-    <div>
-      <script type="text/javascript" src="https://app.ecwid.com/script.js?7590305&data_platform=code&data_date=2015-11-04" charset="utf-8"></script>
-      <script type="text/javascript">
-        xProductBrowser("categoriesPerRow=3","views=grid(3,3) list(10) table(20)","categoryView=grid","searchView=list","id=my-store-7590305");
-      </script>
+      <!-- Ecwid store -->
+      <div id="my-store-7590305"></div>
+      <div>
+        <script type="text/javascript" src="https://app.ecwid.com/script.js?7590305&data_platform=code&data_date=2015-11-04" charset="utf-8"></script>
+        <script type="text/javascript">
+          xProductBrowser("categoriesPerRow=3","views=grid(3,3) list(10) table(20)","categoryView=grid","searchView=list","id=my-store-7590305");
+        </script>
+      </div>
+
+      <!-- Footer -->
+      <footer>
+        <div class="footer">
+          <nav>
+            <a href="https://facebook.com/happybutterflybowties">
+              <img src="/fb.png" height="25" title="Happy Butterfly Bow Ties Facebook Page." />
+            </a>
+
+            <a href="mailto:james@101ideas.cz">
+              <img src="/email.png" height="25" title="Shoot me an email!" />
+            </a>
+
+            <a href="/about">About</a>
+
+            <a href="https://medium.com/happy-butterfly-bow-ties">Blog</a>
+          </nav>
+        </div>
+      </footer>
     </div>
-
-    <!-- Footer -->
-    <footer>
-      <a href="https://facebook.com/happybutterflybowties">
-        <img src="/fb.png" height="25" title="Happy Butterfly Bow Ties Facebook Page." />
-      </a>
-
-      <a href="mailto:james@101ideas.cz">
-        <img src="/email.png" height="25" title="Shoot me an email!" />
-      </a>
-
-      <a href="/about">About</a>
-
-      <a href="https://medium.com/happy-butterfly-bow-ties">Blog</a>
-    </footer>
   </body>
 </html>
